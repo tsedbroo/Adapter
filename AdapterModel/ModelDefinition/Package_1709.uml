@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="6f3275f0-1e82-42fa-8c95-bdf68ab82ce1"
+  name="PatternDemo"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5f8ce8ec-1139-4e6e-af59-9fbd8d021f86"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPatternDemo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="a621fab9-f8cc-47a4-945a-e9ce640c2c93"
+        name="IQuackable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b441d4cd-dec7-4b49-bc07-ed231d8d83ea"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FE:%2F!BACS488%2FPatternDemo (2)%2FPatternDemo%2FPatternDemo%2Fbin%2FDebug%2FPatternDemo.exe&quot; Namespace%3DPatternDemo Type%3DIQuackable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6019101e-a507-4b74-a332-68e0d386f500"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc83e46b-646f-4657-9573-1555609d92d8">
+                <propertyInstance
+                  Id="130d538e-efd8-4700-b9a6-9a8af43bbe69"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1bba0452-fc2b-4577-ade8-d9051bde3d85">
+                <propertyInstance
+                  Id="3e62221c-1064-45ce-ae1e-3488f2dfbc1b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9539404-a232-491a-92c3-bd168337f1b1">
+                <propertyInstance
+                  Id="c5a18f41-f559-4a20-b04c-cc348f2f32f0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7bca105a-49fd-4112-84aa-332e46eb91e5">
+                <propertyInstance
+                  Id="a33326db-e327-4ef2-8225-c36bb585ef41"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

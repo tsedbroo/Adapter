@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="c0762b93-ffe8-4f9b-b3cb-18da9af65c80"
+  name="OtherProgrammersCode"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9b7db140-1da5-4d4e-b7f4-ce7db85a8377"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOtherProgrammersCode"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="44c3f258-5bc9-45da-a4a5-adb93dc87b69"
+        name="IHonkable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="f15fff4e-da67-46e6-ab98-bea2bdd16166"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FE:%2F!BACS488%2FPatternDemo (2)%2FPatternDemo%2FPatternDemo%2Fbin%2FDebug%2FPatternDemo.exe&quot; Namespace%3DOtherProgrammersCode Type%3DIHonkable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7a7b956d-f92c-46b7-afd3-fed9a37c7f1e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eafc3370-e283-4699-b448-8d579d4ba020">
+                <propertyInstance
+                  Id="4c88c6cd-a2e7-4ab7-bd9c-63a40cdc52d4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="67779c80-bbbd-45e5-9214-039869968dba">
+                <propertyInstance
+                  Id="83503689-ee22-49e3-b602-6894d2d19351"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f56d7351-6144-45d4-bd8e-6ab127c5d52c">
+                <propertyInstance
+                  Id="87ffb356-186f-407d-823e-723bf867cb8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08a0342f-0365-40cc-bbdb-b13dfc751c99">
+                <propertyInstance
+                  Id="8c6bbbc1-2322-4bed-80f6-3edf31566e20"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
